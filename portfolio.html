@@ -2,62 +2,111 @@
 	<html>
 		<head>
 			<title>Andrew's Portfolio</title>
-			<link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 			<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 		</head>
 		<body>
 		<!--Name and Links Header-->
-			<header>
-				<div id="headerContent">
-				<h1 id="name">Andrew Lipsey</h1>
-					<div id="nav">
-						<a href="index.html" class="navlinks"> About</a>|
-						<a href="portfolio.html" class="navlinks">Portfolio</a>|
-						<a href="contact.html" class="navlinks">Contact</a>
-					</div>
-				</div>
-			</header>
-		<!--End Header-->
-		<!--Begin Main Body-->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  			<h1 >Andrew Lipsey</h1>
+  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    			<span class="navbar-toggler-icon"></span>
+  			</button>
+  			<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    			<ul class="navbar-nav">
+      				<li class="nav-item">
+       			 		<a class="nav-link" href="index.html">About</a>
+      				</li>
+      				<li class="nav-item">
+        				<a class="nav-link" href="portfolio.html">Portfolio</a>
+     			 	</li>
+      				<li class="nav-item">
+       			 		<a class="nav-link" href="contact.html">Contact</a>
+      				</li>
+    			</ul>
+  			</div>
+		</nav>
+	<!--End Header-->
+	<!--Begin Main Body-->
 			<div class="container">
-
-				<div id="main-content">
-					<h2>Portfolio</h2>
-					<hr>
-					<img class="portImage left" src="assets/images/port1.jpg" alt="First Project">
-					<img class="portImage right" src="assets/images/port2.jpg" alt="Second Project">
-					<a href="#"><div class="project left">Hangman</div></a>
-					<a href="#"><div class="project right">RPG Game</div></a>
-					<img class="portImage left" src="assets/images/port3.jpg" alt="Third Project">
-					<img class="portImage right" src="assets/images/port4.jpg" alt="Fourth Project">
-					<a href="#"><div class="project left">Trivia Game</div></a>
-					<a href="#"><div class="project right">Rutgers Info Widget</div></a>
-					<img class="portImage left" src="assets/images/port5.jpg" alt="Fifth Project">
-					<img class="portImage right" src="assets/images/port6.jpg" alt="Sixth Project">
-					<a href="#"><div class="project left">Rock Paper Scissors</div></a>
-					<a href="#"><div class="project right">Something Amazing</div></a>
-				</div>
-			
+				<div class="row">
+					<div class="col-md-9">
+						<div class="main-content">
+						<div class="row">
+							<div class="col-md-12">
+								<h2>Portfolio</h2>
+								<hr>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6">
+								<img class="portImage" src="assets/images/soupFace.png" alt="Picture of Slurp Guard">
+								<a href="https://adlipsey.github.io/landingpage_example/" target="_newtab"><div class="project">Slurp Guard 3000</div></a>
+							</div>
+							<div class="col-md-6">
+								<img class="portImage" src="assets/images/port1.jpg" alt="Second Project">
+								<a href="#"><div class="project ">Hangman</div></a>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6">
+								<img class="portImage" src="assets/images/port2.jpg" alt="Third Project">
+								<a href="#"><div class="project ">RPG Game</div></a>
+							</div>
+							<div class="col-md-6">
+								<img class="portImage" src="assets/images/port3.jpg" alt="Fourth Project">
+								<a href="#"><div class="project ">Trivia Game</div></a>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6">
+								<img class="portImage" src="assets/images/port4.jpg" alt="Fifth Project">
+								<a href="#"><div class="project ">Rutgers Info Widget</div></a>
+							</div>
+							<div class="col-md-6">
+								<img class="portImage" src="assets/images/port6.jpg" alt="Sixth Project">
+								<a href="#"><div class="project ">Rock Paper Scissors</div></a>
+							</div>
+						</div>
+						</div>
+					</div>
 			<!--Sidebar and Contact Link-->	
-				<div id="sidebar">
-					<h3>Connect with Me</h3>
-					<hr>
-					<a href="https://www.github.com/adlipsey">
-						<img src="./assets/images/GitHub-Mark.png" alt="GitHub Icon" class="sideLinks">
-					</a>
-					<a href="https://www.linkedin.com/in/andrew-lipsey-94b152150/">
-						<img src="./assets/images/linkedin_circle.png" alt="Linkedin Icon" class="sideLinks">
-					</a>
-					<a href="https://stackoverflow.com/users/8793129/andrew-l?tab=profile">
-						<img src="./assets/images/stackoverflow.png" alt="Stackoverflow Icon" class="sideLinks">
-					</a>
+					<div class="col-md-3">
+						<div class="sidebar">
+						<div class="row">
+							<div class="col-md-12">
+								<h3>Connect with Me</h3>
+								<hr>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-4">
+								<a href="https://www.github.com/adlipsey">
+									<img src="./assets/images/GitHub-Mark.png" alt="GitHub Icon" class="sideLinks">
+								</a>
+							</div>
+							<div class="col-md-4">
+								<a href="https://www.linkedin.com/in/andrew-lipsey-94b152150/">
+									<img src="./assets/images/linkedin_circle.png" alt="Linkedin Icon" class="sideLinks">
+								</a>
+							</div>
+							<div class="col-md-4">
+								<a href="https://stackoverflow.com/users/8793129/andrew-l?tab=profile">
+									<img src="./assets/images/stackoverflow.png" alt="Stackoverflow Icon" class="sideLinks">
+								</a>
+							</div>
+						</div>
+						</div>
+					</div><!--End Sidebar-->
 				</div>
-			<!--End Sidebar-->
-
 			</div>
 		<!--End Main Body-->
 		<!--Begin Footer-->
-		<div class="footer">© Copyright 2017 Andrew Lipsey</div>
+			<footer class="footer">
+				<div class="container">
+					<span class="text-muted">© Copyright 2017 Andrew Lipsey</span>
+				</div>
+			</footer>
 		<!--End Footer-->
 		</body>
 	</html>

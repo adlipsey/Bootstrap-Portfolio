@@ -43,6 +43,16 @@ h1 {
 	background-color: #4aaaa5;
 	padding: 20px;
 	margin-bottom: 0px;
+	animation-name: portName;
+	animation-duration: 4s;
+	animation-iteration-count: 4;
+	animation-direction: alternate;
+}
+
+@keyframes portName {
+	0% {background-color: #4aaaa5;}
+	100% {background: none; background-color: #000033;}
+	
 }
 
 h2 {

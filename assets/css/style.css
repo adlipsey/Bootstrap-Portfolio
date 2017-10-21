@@ -58,6 +58,7 @@ h1 {
 }
 
 h2 {
+	margin: .5em;
 	color: #4aaaa5;
 	font-weight: bold;
 	font-family: 'Georgia', Times, Times New Roman, serif;
